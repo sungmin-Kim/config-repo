@@ -1,5 +1,5 @@
 reffics-config:
-  name: default update test test cipher
+  name: default update test test cipher marcus
 
 spring:
   rabbitmq:
