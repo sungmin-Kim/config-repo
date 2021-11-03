@@ -1,5 +1,5 @@
 reffics-config:
-  name: default update
+  name: default update test test
 
 spring:
   rabbitmq:
