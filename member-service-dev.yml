@@ -1,0 +1,11 @@
+reffics-config:
+  name: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
