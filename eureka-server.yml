@@ -1,0 +1,27 @@
+server:
+  port: 19090
+
+spring:
+  profiles: default
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: "{cipher}c43d3acc08d5895a361cb9ceee69b371718f1c1f3b20c1ee7721cb682f00af7c"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      enabled: true
+    shutdown:
+      enabled: true
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
