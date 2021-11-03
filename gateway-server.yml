@@ -1,9 +1,5 @@
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  
+
 management:
   endpoints:
     web:
@@ -14,6 +10,11 @@ management:
       enabled: true
 
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     gateway:
       routes:
