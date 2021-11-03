@@ -4,9 +4,11 @@ management:
   endpoints:
     web:
       exposure:
-        include: "gateway"
+        include: "*"
   endpoint:
     gateway:
+      enabled: true
+    shutdown:
       enabled: true
 
 spring:
