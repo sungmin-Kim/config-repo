@@ -26,3 +26,11 @@ spring:
           uri: http://localhost:19090
           predicates:
             - Path=/test/**
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+      defaultZone: http://localhost:${server.port}/eureka
